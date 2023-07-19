@@ -111,3 +111,142 @@ padding-left: 10px;
 .banner-content img{
     width: 90%;
 }
+/* section online gamer */
+.online-gamer{
+    margin-top: 50px;
+    background: #FFF;
+
+}
+.online-gamer-content{
+    text-align: center;
+    align-items: center;
+    
+}
+.online-gamer-content h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.online-gamer-content h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-gamer-content p{
+    color: #534C64;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+.online-gamer-card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.card img{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.card p{
+    width: 300px;
+    text-align: center;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;  
+}
+/* section two */
+.instantly{
+    margin-top: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.instantly-content{
+    text-align: center;
+    align-items: center;
+    margin-right: 0px;
+    justify-content: center;
+    width: 350px;
+    
+}
+
+.instantly-content h2{
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    line-height: 45px;
+}
+.instantly-content h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instantly-content p{
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.instantly-img{
+    width: 500px;
+    height: 520px;
+    
+}
+.instantly-img .small-img{
+    position: relative;
+    bottom: 250px;
+    right: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive media query */
+/* for mobile devices */
+
+@media screen and (max-width: 576px) {
+    header{
+       
+    }
+    nav,
+    .banner,
+    .online-gamer,
+    .card
+    {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/* for tablet or medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header{
+        
+    }
+    .banner
+    {
+        flex-direction: column;
+    }
+}

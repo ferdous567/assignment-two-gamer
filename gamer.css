@@ -153,6 +153,10 @@ padding-left: 10px;
     border-radius: 10px;
     margin: 20px;
 }
+.card img:hover{
+    border: 5px solid red;
+    opacity: 0.5;
+}
 .card p{
     width: 300px;
     text-align: center;

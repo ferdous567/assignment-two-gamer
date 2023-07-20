@@ -43,12 +43,14 @@ padding-left: 10px;
 .nav-item ul li{
     margin-right: 20px;
     font-weight: 500;
+    cursor: pointer;
 }
 .nav-item .nav-button{
     padding: 15px;
     border: none;
     border-radius: 10px;
     font-size: 1.3rem;
+    cursor: pointer;
 }
 /* header banner style  */
 .banner{
@@ -81,10 +83,12 @@ padding-left: 10px;
 }
 .banner-content ul li{
     padding: 10px;
+    cursor: pointer;
 }
 .banner-con-btn{
     display: flex;
     margin-left: 20px;
+    cursor: pointer;
 }
 .banner-con-btn .signin-btn{
     padding: 18px;
@@ -95,6 +99,7 @@ padding-left: 10px;
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .banner-con-btn .gorogue-btn{
     padding: 18px;
@@ -106,6 +111,7 @@ padding-left: 10px;
     font-size: 1rem;
     font-weight: 400;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .banner-content img{
@@ -268,14 +274,30 @@ footer nav{
 .unorder-list ul li{
     list-style: none;
     padding-left: 30px;
+    cursor: pointer;
 
-
+}
+.icon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.icon .fa-brands{
+    font-size: 2.7rem;
+    margin-top: 20px;
+    padding-left: 15px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
 }
 .footer-descr{
     text-align: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
+
+
 
 
 
